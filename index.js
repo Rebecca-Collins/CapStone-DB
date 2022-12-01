@@ -11,7 +11,7 @@ app.use(express.json());
 
 //--ROUTES---
 app.use("/players");
-app.use("/users")
+app.use("/users", userRoutes);
 
 
 
