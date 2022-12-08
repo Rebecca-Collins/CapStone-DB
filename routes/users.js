@@ -16,11 +16,12 @@ const hashedPassword = bcrypt.hashSync(password);
 // new user
 const newUser = {
     // id: uuid(),
+    // admin: 1,
     first_name,
     last_name,
     email,
     // role: { "users": 1993 },
-    password: hashedPassword
+    password,
     
 };
 
@@ -52,7 +53,7 @@ router.post("/login", async (req, res) => {
     }
 
     //--- VALIDATE PASSWORD --- 
-    const isPasswordCorrect = bcrypt.compareSync(password, user.password);
+    const isPasswordCorrect = (password, user.password);
     if (!isPasswordCorrect) {
         return res.status(400).send("Invalid password");
     }

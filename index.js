@@ -3,6 +3,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const userRoutes = require("./routes/users");
+// const playerRoutes = require("./routes/players")
 const PORT = process.env.PORT || 2020;
 
 
@@ -10,9 +11,13 @@ const PORT = process.env.PORT || 2020;
 app.use(cors());
 app.use(express.json());
 
+app.get("/", (req, res) => {
+    res.send("Express is running!");
+});
+
 // --ROUTES---
-// app.use("/players");
 app.use("/users", userRoutes);
+// app.use("/players", playerRoutes);
 
 
 
