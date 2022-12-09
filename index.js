@@ -2,14 +2,15 @@ require("dotenv").config();
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const userRoutes = require("./routes/users");
-// const playerRoutes = require("./routes/players")
+const userRoutes = require("./routes/usersRoutes");
+const playerRoutes = require("./routes/playersRoutes");
 const PORT = process.env.PORT || 2020;
 
 
 // --MIDDLEWARE--
 app.use(cors());
 app.use(express.json());
+app.use("/images", express.static("./public/images"));
 
 app.get("/", (req, res) => {
     res.send("Express is running!");
@@ -17,7 +18,7 @@ app.get("/", (req, res) => {
 
 // --ROUTES---
 app.use("/users", userRoutes);
-// app.use("/players", playerRoutes);
+app.use("/players", playerRoutes);
 
 
 
