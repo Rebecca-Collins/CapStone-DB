@@ -1,10 +1,10 @@
 
 exports.up = function(knex) {
     return knex.schema.createTable('comments', (table) => {
-      table.uuid('id').primary();
+      table.increments('id').primary().defaultTo(knex.raw('uuid()'));
       table.string('first_name').notNullable();
       table.string('content').notNullable();
-      table.timestamp('created_at').notNullable();
+      table.timestamp('created_at').defaultTo(knex.fn.now());
     })
   };
   

@@ -5,7 +5,7 @@ const cors = require("cors");
 const userRoutes = require("./routes/usersRoutes");
 const playerRoutes = require("./routes/playersRoutes");
 const scheduleRoutes = require("./routes/scheduleRoutes");
-const commentsRoutes = requrie("./routes/commentsRoutes");
+const commentsRoutes = require("./routes/commentsRoutes");
 const PORT = process.env.PORT || 2020;
 
 
