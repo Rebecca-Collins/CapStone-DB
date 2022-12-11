@@ -10,7 +10,7 @@ router.post("/signup", async (req, res) => {
     if (!first_name || !last_name || !email || !password) {
         return res.status(400).send("Please fill all required fields");
     }
-
+// TRY TO GET THIS TO WORK.
 const hashedPassword = bcrypt.hashSync(password);
 
 // new user

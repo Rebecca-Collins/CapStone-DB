@@ -4,12 +4,12 @@
  */
 exports.up = function(knex) {
     return knex.schema.createTable('schedule', (table) =>{
-        table.uuid('id').primary();
-        table.string('home_game').notNullable();
-        table.string('away_game').notNullable();
-        table.string('date').notNullable();
-        table.string('location').notNullable();
-        table.string('time').notNullable();
+        table.increments('id').primary();
+        table.string('home_team').notNullable();
+        table.string('away_team').notNullable();
+        table.string('game_date').notNullable();
+        table.string('game_location').notNullable();
+        table.string('game_time').notNullable();
     })
 };
 
@@ -18,5 +18,5 @@ exports.up = function(knex) {
  * @returns { Promise<void> }
  */
 exports.down = function(knex) {
-  
+    return knex.schema.dropTable('schedule');
 };

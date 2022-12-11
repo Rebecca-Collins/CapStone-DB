@@ -4,6 +4,8 @@ const app = express();
 const cors = require("cors");
 const userRoutes = require("./routes/usersRoutes");
 const playerRoutes = require("./routes/playersRoutes");
+const scheduleRoutes = require("./routes/scheduleRoutes");
+const commentsRoutes = requrie("./routes/commentsRoutes");
 const PORT = process.env.PORT || 2020;
 
 
@@ -19,7 +21,8 @@ app.get("/", (req, res) => {
 // --ROUTES---
 app.use("/users", userRoutes);
 app.use("/players", playerRoutes);
-
+app.use("/schedule", scheduleRoutes);
+app.use("/comments", commentsRoutes);
 
 
 // --PORT---
