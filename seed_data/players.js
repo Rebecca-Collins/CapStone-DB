@@ -1,6 +1,6 @@
 module.exports = [
   {
-    id: 7548757693930304,
+    id: 14,
     first_name: "Rebecca",
     last_name: "Collins",
     age: "29",
@@ -12,19 +12,19 @@ module.exports = [
     img:"http://localhost:2020/images/rebecca.png",
   },
   {
-    id: 20985648387542,
+    id: 13,
     first_name: "Olivia",
     last_name: "Collins",
     age: "25",
     height: `5'5`,
     jersey: "2",
     description:
-      "Has played on the team for 5 years and she loves to yelland tell the team what to MOVE UP!!",
-    position: "Defence",
+      "Has played on the team for 5 years and is an amazing goal keeper because when she was younger her older sisters would fire shots at her all day long!",
+    position: "Goalie",
     img:"http://localhost:2020/images/olivia.png",
   },
   // {
-  //   id: 234342342342343,
+  //   
   //   first_name: "Christina",
   //   last_name: "Renneberg",
   //   age: "35",
@@ -35,7 +35,7 @@ module.exports = [
   //   img:"http://localhost:2020/images/generic-dog.png",
   // },
   {
-    id: 66456787855444,
+    id: 12,
     first_name: "Katy",
     last_name: "Collins-Gilmour",
     age: "31",
@@ -47,7 +47,7 @@ module.exports = [
     img:"http://localhost:2020/images/katy.png",
   },
   {
-    id: 5674646744675,
+   id: 10,
     first_name: "Natasha",
     last_name: "Nagra",
     age: "28",
@@ -59,7 +59,7 @@ module.exports = [
     img:"http://localhost:2020/images/tash.png",
   },
   // {
-  //   id: 467674678798926,
+  //   
   //   first_name: "Alyssa",
   //   last_name: "Spencer",
   //   age: "31",
@@ -71,19 +71,18 @@ module.exports = [
   //   img:"http://localhost:2020/images/generic-dog3.png",
   // },
   {
-    id: 7345454525565575,
+    id: 9,
     first_name: "Heavenly",
     last_name: "Brock",
     age: "25",
     height: `5'5`,
     jersey: "7",
-    description:
-      "Heav has played on the team for 5 years and she is a killer sweeper",
+    description:"Heav has played on the team for 5 years and she is a killer sweeper",
     position: "Sweeper",
     img:"http://localhost:2020/images/heav.png",
   },
   // {
-  //   id: 856365636346356,
+  //   
   //   first_name: "Caitlynn",
   //   last_name: "Salsman",
   //   age: "25",
@@ -95,19 +94,18 @@ module.exports = [
   //   img:"http://localhost:2020/images/generic-dog-2.png",
   // },
   {
-    id: 935464768968,
+    id: 8,
     first_name: "Sarah",
     last_name: "Rust",
     age: "20",
     height: `5'7`,
     jersey: "10",
-    description:
-      "Sarah has played on the team for 2 years and she is an amazing defender",
+    description:"Sarah has played on the team for 2 years and she is an amazing defender",
     position: "Defence",
     img:"http://localhost:2020/images/sarahR.png",
   },
   {
-    id: 1084508208245702,
+    id: 7,
     first_name: "Erica",
     last_name: "Foulds",
     age: "30",
@@ -118,7 +116,7 @@ module.exports = [
     img:"http://localhost:2020/images/erica.png",
   },
   // {
-  //   id: 1152857408430327,
+  //   
   //   first_name: "Linda",
   //   last_name: "Jones",
   //   age: "35",
@@ -130,7 +128,7 @@ module.exports = [
   //   img:"http://localhost:2020/images/generic-dog.png",
   // },
   // {
-  //   id: 124582704582352,
+  //  
   //   first_name: "Monica",
   //   last_name: "Ciolfi",
   //   age: "35",
@@ -142,7 +140,7 @@ module.exports = [
   //   img:"http://localhost:2020/images/generic-dog3.png",
   // },
   {
-    id: 184750284524523,
+    id: 5,
     first_name: "Christina",
     last_name: "Klemencic",
     age: "39",
@@ -153,19 +151,19 @@ module.exports = [
     position:"Defence",
     img:"http://localhost:2020/images/beela.png",
   },
-  {
-    id: 1434058204592245,
-    first_name: "Rebeccah",
-    last_name: "Stefina",
-    age: "30",
-    height: `5'6`,
-    jersey: "15",
-    description: "Rebeccah has played on the team for 8 years and",
-    position: "Forward",
-    img:"http://localhost:2020/images/rebeccah.png",
-  },
   // {
-  //   id: 1545229485723495,
+  //   
+  //   first_name: "Rebeccah",
+  //   last_name: "Stefina",
+  //   age: "30",
+  //   height: `5'6`,
+  //   jersey: "15",
+  //   description: "Rebeccah has played on the team for 8 years",
+  //   position: "Forward",
+  //   img:"http://localhost:2020/images/rebeccah.jpg",
+  // },
+  // {
+  //   
   //   first_name: "Jennika",
   //   last_name: "Mercer",
   //   age: "20",
@@ -175,19 +173,19 @@ module.exports = [
   //   position: "Midfield",
   //   img:"http://localhost:2020/images/generic-dog-2.png",
   // },
+  // {
+  //   
+  //   first_name: "Kamryn",
+  //   last_name: "McKean",
+  //   age: "20",
+  //   height: `5'4`,
+  //   jersey: "17",
+  //   description: "Kam has played on the team for 2 years",
+  //   position: "Midfield",
+  //   img:"http://localhost:2020/images/kam.png",
+  // },
   {
-    id: 1485209457024856,
-    first_name: "Kamryn",
-    last_name: "McKean",
-    age: "20",
-    height: `5'4`,
-    jersey: "17",
-    description: "Kam has played on the team for 2 years",
-    position: "Midfield",
-    img:"http://localhost:2020/images/kam.png",
-  },
-  {
-    id: 14350987437507,
+    id: 3,
     first_name: "Natasha",
     last_name: "Collins",
     age: "29",
@@ -199,7 +197,7 @@ module.exports = [
     img:"http://localhost:2020/images/nat.png",
   },
   {
-    id: 1824509824705828,
+    id: 2,
     first_name:"Trish",
     last_name:"Leggett",
     age:"39",
@@ -210,7 +208,7 @@ module.exports = [
     img:"http://localhost:2020/images/trish.png",
   },
   // {
-  //   id: 13450834587839,
+  //   
   //   first_name:"Brittany",
   //   last_name:"Salmon",
   //   age:"32",
@@ -222,7 +220,7 @@ module.exports = [
   //   img:"http://localhost:2020/images/generic-dog3.png",
   // },
   // {
-  //   id: 245824057257250,
+  //   
   //   first_name:"Caroline",
   //   last_name:"Mimnaugh",
   //   age:"45",
@@ -232,21 +230,21 @@ module.exports = [
   //   position:"Midfield",
   //   img:"http://localhost:2020/images/generic-dog.png",
   // },
+  // {
+  //   
+  //   first_name:"Joy",
+  //   last_name:"Braun",
+  //   age:"38",
+  //   height:`5'`,
+  //   jersey:"0",
+  //   description:"Joy has played on the team for 5 years and she is the best goalie in the league ",
+  //   position:"Goalie",
+  //   img:"http://localhost:2020/images/joy.png",
+  // },
   {
-    id: 23485702870251,
-    first_name:"Joy",
-    last_name:"Braun",
-    age:"38",
-    height:`5'`,
-    jersey:"0",
-    description:"Joy has played on the team for 5 years and she is the best goalie in the league ",
-    position:"Goalie",
-    img:"http://localhost:2020/images/joy.png",
-  },
-  {
-    id: 485242348752,
-    first_name: "Sarah",
-    last_name: "Bryson",
+    id: 1,
+    first_name: "Sarah Bryson",
+    last_name: " Coach",
     age: "37",
     height: `5'5`,
     jersey: "",

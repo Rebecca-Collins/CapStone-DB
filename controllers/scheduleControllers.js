@@ -3,7 +3,7 @@ const knex = require("knex") (require("../knexfile"));
 exports.index = async (_req, res) => {
     try {
         const scheduleData = await knex("schedule");
-        res.status(200).json(scheduleData);
+        res.status(200).send(scheduleData);
     } catch (err) {
         res.status(400).send(`Error retrieving schedule: ${err}`);
     }

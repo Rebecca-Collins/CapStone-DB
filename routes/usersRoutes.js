@@ -15,17 +15,12 @@ const hashedPassword = bcrypt.hashSync(password);
 
 // new user
 const newUser = {
-    // id: uuid(),
-    // admin: 1,
     first_name,
     last_name,
     email,
-    // role: { "users": 1993 },
     password,
     
 };
-
-// Inserts into database
 
 try {
     await knex('users').insert(newUser);
@@ -69,7 +64,7 @@ router.post("/login", async (req, res) => {
     //--- GET CURRENT USER ---
     router.get("/current", authorize, async (req, res) => {
         const user = await knex ('users').where({ id: req.user.id }).first();
-        delete user.password;
+        // delete user.password;
         res.json(user);
     });
 

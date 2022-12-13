@@ -8,6 +8,6 @@ router
 router
 .route("/:id")
 .get(playersController.singlePlayer)
-
+.delete(playersController.deletePlayer);
 
 module.exports = router;
