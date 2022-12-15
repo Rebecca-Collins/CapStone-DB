@@ -8,14 +8,13 @@ const scheduleRoutes = require("./routes/scheduleRoutes");
 const commentsRoutes = require("./routes/commentsRoutes");
 const PORT = process.env.PORT || 2020;
 
-
 // --MIDDLEWARE--
 app.use(cors());
 app.use(express.json());
 app.use("/images", express.static("./public/images"));
 
 app.get("/", (req, res) => {
-    res.send("Express is running!");
+  res.send("Express is running!");
 });
 
 // --ROUTES---
@@ -23,7 +22,6 @@ app.use("/users", userRoutes);
 app.use("/players", playerRoutes);
 app.use("/schedule", scheduleRoutes);
 app.use("/comments", commentsRoutes);
-
 
 // --PORT---
 app.listen(PORT, () => {
