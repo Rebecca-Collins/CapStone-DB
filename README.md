@@ -36,3 +36,7 @@ Run the following commands to migrate the database tables:
 * 		npm run migrate or npx knex migrate:latest
 Run the following command to start the server: node index.js To verify that the server is running, you can use a tool like Postman to make a test API request to the server.
 
+Next Steps:
+- Add E-commerce that allows users to buy team merch
+- Add players
+- Set up forms to send
