@@ -6,7 +6,7 @@ const userRoutes = require("./routes/usersRoutes");
 const playerRoutes = require("./routes/playersRoutes");
 const scheduleRoutes = require("./routes/scheduleRoutes");
 const commentsRoutes = require("./routes/commentsRoutes");
-const PORT = process.env.PORT || 2020;
+const PORT = process.env.PORT || 8080;
 const fileupload = require('express-fileupload');
 
 // --MIDDLEWARE--

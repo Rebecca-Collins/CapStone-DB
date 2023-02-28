@@ -59,7 +59,7 @@ exports.addPlayer = async (req, res) => {
     let fileName = uuidv() + "-" + imageName;
     let staticFilePath = "./public/images/" + fileName;
     let servedFilePath = "/images/" + fileName;
-    let servedUrl = "http://localhost:2020" + servedFilePath;
+    let servedUrl = "http://localhost:8080" + servedFilePath;
     fs.writeFileSync(staticFilePath, imageData);
 
     const newPlayer = req.body;
@@ -93,7 +93,7 @@ exports.editPlayer = async (req, res) => {
     let fileName = uuidv() + "-" + imageName;
     let staticFilePath = "./public/images" + fileName;
     let servedFilePath = "/thumbnail/" + fileName;
-    let servedUrl = "http://localhost:2020" + servedFilePath;
+    let servedUrl = "http://localhost:8080" + servedFilePath;
     fs.writeFileSync(staticFilePath, imageData);
 
     const editPlayer = req.body;
