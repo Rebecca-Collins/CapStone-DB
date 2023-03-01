@@ -26,11 +26,11 @@ processes = []
 
   [[services.ports]]
     force_https = true
-    handlers = ["http"]
+    handlers = ["https"]
     port = 80
 
   [[services.ports]]
-    handlers = ["tls", "http"]
+    handlers = ["tls", "https"]
     port = 443
 
   [[services.tcp_checks]]
