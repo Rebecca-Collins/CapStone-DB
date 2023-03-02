@@ -11,7 +11,7 @@ const fileupload = require('express-fileupload');
 
 // --MIDDLEWARE--
 app.use(cors({
-  origin: "https://oceanside-united.netlify.app/"
+  origin: "https://oceanside-united.netlify.app"
 }));
 app.use(express.json());
 app.use(fileupload());
