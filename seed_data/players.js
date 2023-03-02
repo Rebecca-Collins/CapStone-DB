@@ -83,8 +83,8 @@ module.exports = [
     description:
       "Erica she will come out of no where and take a beating for her team. You can always count on her.",
     position: "Defence",
-    img: "https://localhost:8080/images/erica.png",
-    // img: "https://localhost:8080/images/erica.png",
+    img: "http://localhost:8080/images/erica.png",
+    // img: "http://localhost:8080/images/erica.png",
   },
   {
     id: 5,
@@ -121,7 +121,7 @@ module.exports = [
     description:
       "Trish has played on the team for over 10 years and is the centre mid toughie. She never gives up no matter how many balls she gets to the face or yellow cards",
     position: "Center Midfield",
-    img: "https://oceanside-united.fly.dev/images/trish.png",
-    // img: "http://localhost:8080/images/trish.png",
+    // img: "http://oceanside-united.fly.dev/images/trish.png",
+    img: "http://localhost:8080/images/trish.png",
   },
 ];
