@@ -10,7 +10,9 @@ const PORT = process.env.PORT || 8080;
 const fileupload = require('express-fileupload');
 
 // --MIDDLEWARE--
-app.use(cors());
+app.use(cors({
+  origin: "https://oceanside-united.netlify.app/"
+}));
 app.use(express.json());
 app.use(fileupload());
 app.use("/images", express.static("./public/images"));
