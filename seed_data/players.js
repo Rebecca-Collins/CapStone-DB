@@ -8,7 +8,7 @@ module.exports = [
     jersey: "1",
     description: `Has played on the team for over 10 years, she will play her heart out for 5 minutes and then need a sub. She's also A player that can dominate the midfield position while dangling the ball around players to make a game winning play.`,
     position: "Midfield",
-    img: "http://localhost:8080/images/rebecca.png",
+    img: "https://oceanside-united.herokuapp.com/images/rebecca.png",
     // img: "http://localhost:8080/images/rebecca.png",
   },
   {
@@ -21,7 +21,7 @@ module.exports = [
     description:
       "Has played on the team for 5 years and is an amazing goal keeper because when she was younger her older sisters would fire shots at her all day long!",
     position: "Goalie/ Defence",
-    img: "http://localhost:8080/images/olivia.png",
+    img: "https://oceanside-united.herokuapp.com/images/olivia.png",
     // img: "http://localhost:8080/images/olivia.png",
   },
   {
@@ -34,7 +34,7 @@ module.exports = [
     description:
       "Katy has been an integral part of the team for the past two years, and during that time, she has developed a shot that strikes fear into the hearts of her opponents. No one wants to be on the receiving end",
     position: "C - Midfeild",
-    img: "http://localhost:8080/images/katy.png",
+    img: "https://oceanside-united.herokuapp.com/images/katy.png",
   },
   {
     id: 10,
@@ -46,7 +46,7 @@ module.exports = [
     description:
       "Tash has played on the team for 6 years and shes a lightening bolt who never gives up!",
     position: "Midfield",
-    img: "http://localhost:8080/images/tash.png",
+    img: "https://oceanside-united.herokuapp.com/images/tash.png",
   },
   {
     id: 9,
@@ -58,7 +58,7 @@ module.exports = [
     description:
       "Heav - has played on the team for 5 years and always our last women back. She isn’t afraid to bark orders at her team mates when they step out of line. The opposing team needs to watch out for her sneaky hip checks.",
     position: "Sweeper",
-    img: "http://localhost:8080/images/heav.png",
+    img: "https://oceanside-united.herokuapp.com/images/heav.png",
   },
   {
     id: 8,
@@ -70,7 +70,7 @@ module.exports = [
     description:
       "Sarah - is one of the youngest players on the team and is the number one professional corner taker, her kicks are perfect but the teams finishing is not.",
     position: "Defence",
-    img: "http://localhost:8080/images/sarahR.png",
+    img: "https://oceanside-united.herokuapp.com/images/sarahR.png",
     // img: "http://localhost:8080/images/sarahR.png",
   },
   {
@@ -83,7 +83,7 @@ module.exports = [
     description:
       "Erica she will come out of no where and take a beating for her team. You can always count on her.",
     position: "Defence",
-    img: "http://localhost:8080/images/erica.png",
+    img: "https://oceanside-united.herokuapp.com/images/erica.png",
     // img: "http://localhost:8080/images/erica.png",
   },
   {
@@ -96,7 +96,7 @@ module.exports = [
     description:
       "Beela is the captain and has played on the team for over 15 years and is the longest standing team mate she is always cheering the team on and making everyone laugh while holding down the back line like a brick wall. ",
     position: "Defence",
-    img: "http://localhost:8080/images/beela.png",
+    img: "https://oceanside-united.herokuapp.com/images/beela.png",
     // img: "http://localhost:8080/images/beela.png",
   },
   {
@@ -108,7 +108,7 @@ module.exports = [
     jersey: "18",
     description: `Nat has played on the team for over 10 years and is our star Forward, she's always getting her self into position to score those game winning goals `,
     position: "Forward",
-    img: "http://localhost:8080/images/nat.png",
+    img: "https://oceanside-united.herokuapp.com/images/nat.png",
     // img: "http://localhost:8080/images/nat.png",
   },
   {
@@ -122,6 +122,6 @@ module.exports = [
       "Trish has played on the team for over 10 years and is the centre mid toughie. She never gives up no matter how many balls she gets to the face or yellow cards",
     position: "Center Midfield",
     // img: "http://oceanside-united.fly.dev/images/trish.png",
-    img: "http://localhost:8080/images/trish.png",
+    img: "https://oceanside-united.herokuapp.com/images/trish.png",
   },
 ];
