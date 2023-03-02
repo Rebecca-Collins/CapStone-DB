@@ -11,7 +11,7 @@ const fileupload = require('express-fileupload');
 
 // --MIDDLEWARE--
 app.use(cors({
-  origin: "https://oceanside-united.netlify.app"
+  origin: "http://oceanside-united.netlify.app"
 }));
 app.use(express.json());
 app.use(fileupload());
@@ -33,7 +33,7 @@ app.listen(PORT, () => {
 });
 
 app.use((_req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "https://oceanside-united.netlify.app");
+  res.header("Access-Control-Allow-Origin", "http://oceanside-united.netlify.app");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
 });
