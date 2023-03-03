@@ -6,13 +6,15 @@ const userRoutes = require("./routes/usersRoutes");
 const playerRoutes = require("./routes/playersRoutes");
 const scheduleRoutes = require("./routes/scheduleRoutes");
 const commentsRoutes = require("./routes/commentsRoutes");
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3306;
 const fileupload = require('express-fileupload');
 
 // --MIDDLEWARE--
-app.use(cors({
-  origin: "https://oceanside-united.netlify.app"
-}));
+app.use(cors());
+// app.use(cors({
+//   origin: "https://oceanside-united.netlify.app"
+// }));
+
 app.use(express.json());
 app.use(fileupload());
 app.use("/images", express.static("./public/images"));
