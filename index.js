@@ -20,7 +20,7 @@ app.use(fileupload());
 app.use("/images", express.static("./public/images"));
 
 app.get("/", (req, res) => {
-  res.send("Express is running!");
+  res.send("Express is running! REBECCA");
 });
 
 // --ROUTES---
