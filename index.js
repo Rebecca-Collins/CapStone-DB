@@ -34,13 +34,13 @@ app.listen(PORT, () => {
   console.log(`Listening on port ${PORT}`);
 });
 
-app.use((_req, res, next) => {
-  // res.setHeader("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Origin", "http://oceanside-united.netlify.app");
-  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  next();
-});
+// app.use((_req, res, next) => {
+//   // res.setHeader("Access-Control-Allow-Origin", "*");
+//   res.header("Access-Control-Allow-Origin", "http://oceanside-united.netlify.app");
+//   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+//   next();
+// });
 
 app.get('*', (req, res) => {
-  res.sendFile('index.html',{root: __dirname + './../build'});
+  res.sendFile('index.js',{root: __dirname + './../build'});
 });
