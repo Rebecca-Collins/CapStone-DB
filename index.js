@@ -6,7 +6,7 @@ const userRoutes = require("./routes/usersRoutes");
 const playerRoutes = require("./routes/playersRoutes");
 const scheduleRoutes = require("./routes/scheduleRoutes");
 const commentsRoutes = require("./routes/commentsRoutes");
-const PORT = process.env.PORT || 3306;
+const PORT = process.env.PORT || 8080;
 const fileupload = require('express-fileupload');
 
 // --MIDDLEWARE--
@@ -39,4 +39,8 @@ app.use((_req, res, next) => {
   res.header("Access-Control-Allow-Origin", "http://oceanside-united.netlify.app");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
+});
+
+app.get('*', (req, res) => {
+  res.sendFile('index.html',{root: __dirname + './../build'});
 });
